@@ -1,0 +1,10 @@
+{
+    "name": "Google Reader Faster",
+    "version": "0.1",
+    "description": "Removing Google Plus function to increase Google Reader speed",
+    "background_page": "background.html",
+    "permissions": [
+        "tabs",
+        "experimental"
+    ]
+}
