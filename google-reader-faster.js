@@ -3,7 +3,7 @@
 
     var filter = function(req){
         if (!tabs[req.tabId]) {
-            return;
+            return null;
         }
 
         console.log('Blocking! ' + req.url);
